@@ -70,6 +70,8 @@ class App extends Component {
 
     restante -=resta;
 
+    restante = String(restante);
+
     // agregamos el nuevo state
 
     this.setState({
@@ -85,7 +87,7 @@ class App extends Component {
     return (
       <div className = "App container">
       <Header 
-         titulo = 'Gasto Semanal'
+         titulo = 'Gasto Quincenal'
       />
       <div className =" contenido-principal contenido">
         <div className=" row">
